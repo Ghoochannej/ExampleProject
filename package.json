@@ -1,0 +1,28 @@
+{
+  "name": "example-project",
+  "version": "1.0.0",
+  "description": "Project designed to learn nodejs and js",
+  "author": "Caio Henrique  <caiohenrique6@outlook.com>",
+  "homepage": "https://github.com/ghoochannej/ExampleProject#readme",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "src/index.js",
+    "lint": "eslint src/**/*.js --fix"
+  },
+  "keywords": ["node", "begginer"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghoochannej/ExampleProject"
+  },
+  "bugs": {
+    "url": "ttps://github.com/ghoochannej/ExampleProject/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.13.0"
+  },
+  "license": "MIT"
+}
