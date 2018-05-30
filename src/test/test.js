@@ -32,7 +32,7 @@ describe('DIVIDE Test', () => {
     done();
   });
   test('should return 0', done => {
-    expect(lib.divide(10, 0)).toBe(9);
+    expect(lib.divide(10, 0)).toBe(0);
     done();
   });
 });
